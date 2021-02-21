@@ -21,7 +21,7 @@ The software will collect all files from the input directory and copy them to th
 changing the files content. It will only rename the files and place them in the proper directory for year, month and day.
 
 %prep
-{{{ git_dir_setup_macro }}}
+# {{{ git_dir_setup_macro }}}
 
 %build
 # nothing to do here
