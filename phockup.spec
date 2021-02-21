@@ -1,3 +1,4 @@
+# Name:       {{{ git_dir_name }}}
 Name:       phockup
 # The git_dir_version macro is quite a mis-match for our use-case
 # since using a 3-component version number requires updating
@@ -9,7 +10,7 @@ Release:    1%{?dist}
 Summary:    Photo and video sorting tool
 URL:        https://github.com/ivandokov/phockup
 License:    MIT
-VCS:        {{{ git_dir_vcs }}}
+# VCS:        {{{ git_dir_vcs }}}
 Source:     {{{ git_dir_pack }}}
 BuildArch:  noarch
 Requires:   perl-Image-ExifTool
