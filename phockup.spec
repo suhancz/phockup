@@ -27,16 +27,16 @@ changing the files content. It will only rename the files and place them in the 
 # nothing to do here
 
 %install
-install -D ./phockup.py %{buildroot}/usr/lib/phockup/phockup.py
-install -D ./src/__init__.py %{buildroot}/usr/lib/phockup/src/__init__.py
-install -D ./src/date.py %{buildroot}/usr/lib/phockup/src/date.py
-install -D ./src/dependency.py %{buildroot}/usr/lib/phockup/src/dependency.py
-install -D ./src/exif.py %{buildroot}/usr/lib/phockup/src/exif.py
-install -D ./src/help.py %{buildroot}/usr/lib/phockup/src/help.py
-install -D ./src/phockup.py %{buildroot}/usr/lib/phockup/src/phockup.py
-install -D ./src/printer.py %{buildroot}/usr/lib/phockup/src/printer.py
-install -D ./license %{buildroot}/usr/lib/phockup/license
-install -D ./phockup-rpm.sh %{buildroot}/usr/bin/phockup
+install -D phockup.py %{buildroot}/usr/lib/phockup/phockup.py
+install -D src/__init__.py %{buildroot}/usr/lib/phockup/src/__init__.py
+install -D src/date.py %{buildroot}/usr/lib/phockup/src/date.py
+install -D src/dependency.py %{buildroot}/usr/lib/phockup/src/dependency.py
+install -D src/exif.py %{buildroot}/usr/lib/phockup/src/exif.py
+install -D src/help.py %{buildroot}/usr/lib/phockup/src/help.py
+install -D src/phockup.py %{buildroot}/usr/lib/phockup/src/phockup.py
+install -D src/printer.py %{buildroot}/usr/lib/phockup/src/printer.py
+install -D license %{buildroot}/usr/lib/phockup/license
+install -D phockup-rpm.sh %{buildroot}/usr/bin/phockup
 
 %files
 /usr/lib/phockup/*
