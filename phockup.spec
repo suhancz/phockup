@@ -1,4 +1,4 @@
-Name:       {{{ git_dir_name }}}
+Name:       phockup
 # The git_dir_version macro is quite a mis-match for our use-case
 # since using a 3-component version number requires updating
 # the 'lead' parameter, anyways
